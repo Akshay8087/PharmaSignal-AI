@@ -1,0 +1,19 @@
+<svg width="1600" height="370" viewBox="0 0 1600 370" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="pbg" x2="1"><stop stop-color="#06131D"/><stop offset="1" stop-color="#071B25"/></linearGradient>
+ <linearGradient id="mint" x2="1"><stop stop-color="#45F0C1"/><stop offset="1" stop-color="#53C8F1"/></linearGradient>
+ <style>.t{font-family:Inter,Segoe UI,Arial,sans-serif}.n{fill:#45F0C1;font-size:12px;font-weight:800;letter-spacing:2px}.h{fill:#EEF9F7;font-size:18px;font-weight:700}.b{fill:#84A1A8;font-size:12px}</style>
+</defs>
+<rect width="1600" height="370" rx="28" fill="url(#pbg)" stroke="#132F38"/>
+<text x="55" y="53" class="t n">SYSTEM ARCHITECTURE</text>
+<text x="55" y="88" class="t h" font-size="26">From raw adverse-event records to responsible intelligence</text>
+<path d="M130 228H1460" stroke="#163640" stroke-width="3"/>
+<path d="M130 228H1288" stroke="url(#mint)" stroke-opacity=".42" stroke-width="3"/>
+<g class="t">
+ <g transform="translate(92 170)"><rect width="224" height="115" rx="20" fill="#0B202A" stroke="#173941"/><text x="22" y="31" class="n">01 · INGEST</text><text x="22" y="63" class="h">100K Reports</text><text x="22" y="88" class="b">quality + schema audit</text></g>
+ <g transform="translate(344 170)"><rect width="224" height="115" rx="20" fill="#0B202A" stroke="#173941"/><text x="22" y="31" class="n">02 · PROTECT</text><text x="22" y="63" class="h">Leakage Firewall</text><text x="22" y="88" class="b">exclude future outcome</text></g>
+ <g transform="translate(596 170)"><rect width="224" height="115" rx="20" fill="#0B202A" stroke="#173941"/><text x="22" y="31" class="n">03 · MODEL</text><text x="22" y="63" class="h">ML Screening</text><text x="22" y="88" class="b">threshold optimized</text></g>
+ <g transform="translate(848 170)"><rect width="224" height="115" rx="20" fill="#0B202A" stroke="#173941"/><text x="22" y="31" class="n">04 · EXPLAIN</text><text x="22" y="63" class="h">Gemini Layer</text><text x="22" y="88" class="b">guarded narrative</text></g>
+ <g transform="translate(1100 170)"><rect width="376" height="115" rx="20" fill="#09231F" stroke="#1C594B"/><text x="22" y="31" class="n">05 · EXPERIENCE</text><text x="22" y="63" class="h">Premium Flask Product</text><text x="22" y="88" class="b">prediction • evidence • analytics</text><circle cx="335" cy="57" r="13" fill="#45F0C1"/><path d="M330 57l4 4 8-10" fill="none" stroke="#06131D" stroke-width="3"/></g>
+</g>
+</svg>

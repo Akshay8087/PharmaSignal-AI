@@ -1,0 +1,67 @@
+<svg width="1600" height="650" viewBox="0 0 1600 650" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#061018"/><stop offset=".5" stop-color="#071B25"/><stop offset="1" stop-color="#06131E"/></linearGradient>
+  <linearGradient id="mint" x2="1"><stop stop-color="#45F0C1"/><stop offset="1" stop-color="#53C8F1"/></linearGradient>
+  <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#0D2430" stop-opacity=".92"/><stop offset="1" stop-color="#091821" stop-opacity=".78"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#45F0C1" stop-opacity=".34"/><stop offset="1" stop-color="#45F0C1" stop-opacity="0"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="34"/></filter>
+  <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="25" flood-color="#000" flood-opacity=".38"/></filter>
+  <style>
+    .sans{font-family:Inter,Segoe UI,Arial,sans-serif}.label{font-size:14px;fill:#6F97A1;font-weight:700;letter-spacing:3px}
+    .body{font-size:16px;fill:#90ADB3}.small{font-size:13px;fill:#8DA8AF}
+  </style>
+</defs>
+<rect width="1600" height="650" rx="32" fill="url(#bg)"/>
+<circle cx="1300" cy="80" r="250" fill="url(#glow)" filter="url(#blur)"/>
+<circle cx="250" cy="610" r="290" fill="#226B93" opacity=".12" filter="url(#blur)"/>
+<path d="M0 510 C250 430 370 600 590 520 S980 470 1200 525 S1450 470 1600 505" stroke="#45F0C1" stroke-opacity=".09" fill="none"/>
+<g class="sans">
+ <g transform="translate(72 74)">
+   <rect width="42" height="42" rx="13" fill="url(#mint)"/>
+   <path d="M21 9v24M9 21h24" stroke="#06141D" stroke-width="4" stroke-linecap="round"/>
+   <text x="57" y="29" font-size="27" font-weight="750" fill="#EEF9F7">MediSafe <tspan fill="#45F0C1">AI</tspan></text>
+ </g>
+ <text x="72" y="173" class="label" fill="#45F0C1">PHARMACOVIGILANCE INTELLIGENCE PLATFORM</text>
+ <text x="72" y="250" font-size="67" font-weight="770" letter-spacing="-3" fill="#F2FAF8">Drug Side‑Effect</text>
+ <text x="72" y="326" font-size="67" font-weight="770" letter-spacing="-3" fill="#F2FAF8">Risk Intelligence<tspan fill="#45F0C1">.</tspan></text>
+ <text x="72" y="378" class="body">100,000 adverse-event reports transformed into leakage-safe ML,</text>
+ <text x="72" y="405" class="body">interactive safety evidence, and responsible Gemini explanations.</text>
+ <g transform="translate(72 454)">
+   <rect width="164" height="48" rx="24" fill="url(#mint)"/>
+   <text x="31" y="30" font-size="14" font-weight="750" fill="#04161E">FLASK EXPERIENCE</text>
+   <rect x="177" width="190" height="48" rx="24" fill="none" stroke="#26434C"/>
+   <text x="204" y="30" font-size="14" font-weight="750" fill="#D9EBE9">RESPONSIBLE AI</text>
+ </g>
+ <g transform="translate(72 558)">
+  <text class="small">LEAKAGE SAFE MODELING</text><circle cx="194" cy="-5" r="3" fill="#45F0C1"/>
+  <text x="214" class="small">PREMIUM UI</text><circle cx="330" cy="-5" r="3" fill="#45F0C1"/>
+  <text x="350" class="small">GEMINI LAYER</text>
+ </g>
+</g>
+<g transform="translate(1010 74)" filter="url(#shadow)" class="sans">
+  <rect width="500" height="510" rx="28" fill="url(#panel)" stroke="#1C3D46"/>
+  <rect x="25" y="24" width="450" height="54" rx="16" fill="#081821" stroke="#14343D"/>
+  <circle cx="51" cy="51" r="7" fill="#45F0C1"/>
+  <text x="69" y="57" font-size="14" font-weight="700" fill="#D8EBE8">Risk Screening Engine</text>
+  <rect x="362" y="39" width="88" height="25" rx="12" fill="#10342F"/>
+  <text x="384" y="56" font-size="11" font-weight="700" fill="#45F0C1">LIVE</text>
+  <text x="27" y="117" class="label">MODEL OUTPUT</text>
+  <text x="27" y="184" font-size="65" font-weight="750" fill="#45F0C1">37.4%</text>
+  <text x="231" y="176" font-size="14" fill="#8DA8AF">MODERATE SIGNAL</text>
+  <text x="231" y="200" font-size="12" fill="#647F87">review recommended</text>
+  <rect x="28" y="222" width="420" height="8" rx="4" fill="#122D35"/>
+  <rect x="28" y="222" width="157" height="8" rx="4" fill="url(#mint)"/>
+  <line x1="125" y1="212" x2="125" y2="244" stroke="#F7C35E" stroke-width="2"/>
+  <text x="101" y="263" font-size="11" fill="#F7C35E">0.23 THRESHOLD</text>
+  <rect x="27" y="298" width="212" height="96" rx="18" fill="#0B1C25" stroke="#16343D"/>
+  <text x="45" y="326" class="small">ROC–AUC</text>
+  <text x="45" y="365" font-size="32" font-weight="730" fill="#EEF9F7">0.8178</text>
+  <rect x="257" y="298" width="191" height="96" rx="18" fill="#0B1C25" stroke="#16343D"/>
+  <text x="276" y="326" class="small">RECALL</text>
+  <text x="276" y="365" font-size="32" font-weight="730" fill="#EEF9F7">0.8836</text>
+  <rect x="27" y="415" width="421" height="70" rx="17" fill="#09211F" stroke="#12483D"/>
+  <path d="M52 450h16l11-18 18 34 14-26 12 10h21" stroke="#45F0C1" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="172" y="445" font-size="12" font-weight="700" fill="#D8EBE8">Gemini safety summary</text>
+  <text x="172" y="463" font-size="11" fill="#73959D">guarded explanation layer enabled</text>
+</g>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "shape": [
+    100000,
+    19
+  ],
+  "hospital_rate": 0.10314,
+  "severity_hospitalization_rate": {
+    "Severe": 0.4502159161011721,
+    "Moderate": 0.18054534518478915,
+    "Mild": 0.020365021220287563
+  },
+  "top_drug_hospital_rate": {
+    "Lisinopril": 0.10780517627878541,
+    "Atorvastatin": 0.10752366716492277,
+    "Ibuprofen": 0.10693959061407889,
+    "Paracetamol": 0.10444913126443708,
+    "Amoxicillin": 0.10199054000788332
+  },
+  "top_side_effect_hospital_rate": {
+    "Heartburn": 0.11328713467912022,
+    "Fatigue": 0.10967611744526284,
+    "Stomach Pain": 0.10782556750298686,
+    "Liver Toxicity": 0.10684019370460049,
+    "Abdominal Pain": 0.1060339777387229,
+    "Headache": 0.10595130748422002,
+    "Dry Cough": 0.1050381679389313,
+    "Insomnia": 0.10501193317422435
+  },
+  "avg_days_to_report": 30.47013
+}

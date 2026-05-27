@@ -1,0 +1,21 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x2="1"><stop stop-color="#06131D"/><stop offset="1" stop-color="#071B25"/></linearGradient>
+<style>.font{font-family:Inter,Segoe UI,Arial,sans-serif} .label{font:800 12px Inter,Segoe UI,Arial;letter-spacing:2px;fill:#45F0C1} .title{font:700 25px Inter,Segoe UI,Arial;fill:#EDF8F7} .model{font:700 15px Inter,Segoe UI,Arial;fill:#E4F1EF} .metric{font:600 13px Inter,Segoe UI,Arial;fill:#91ADB3} .badge{font:800 11px Inter,Segoe UI,Arial;fill:#45F0C1}</style></defs>
+<rect width="1600" height="420" rx="28" fill="url(#bg)" stroke="#132F38"/>
+<text x="50" y="44" class="label">MODEL BENCHMARK</text><text x="50" y="80" class="title">Transparent performance — no inflated claims</text>
+<circle cx="395" cy="99" r="5" fill="#45F0C1"/><text x="408" y="104" class="metric">ROC-AUC</text>
+<circle cx="495" cy="99" r="5" fill="#4CB8EC"/><text x="508" y="104" class="metric">PR-AUC</text>
+<g><rect x="50" y="94" width="1400" height="60" rx="16" fill="#0A1C25" stroke="#32DFAE"/>
+    <text x="77" y="131" class="model">Logistic Regression</text>
+    <rect x="382" y="110" width="520" height="11" rx="6" fill="#132C36"/><rect x="382" y="110" width="425" height="11" rx="6" fill="#45F0C1"/>
+    <rect x="382" y="132" width="520" height="11" rx="6" fill="#132C36"/><rect x="382" y="132" width="180" height="11" rx="6" fill="#4CB8EC"/>
+    <text x="944" y="120" class="metric">ROC-AUC  0.8178</text><text x="1112" y="120" class="metric">PR-AUC  0.3463</text><rect x="1345" y="109" width="108" height="27" rx="14" fill="#103832"/><text x="1369" y="127" class="badge">SELECTED</text></g><g><rect x="50" y="174" width="1400" height="60" rx="16" fill="#0A1C25" stroke="#163640"/>
+    <text x="77" y="211" class="model">Random Forest</text>
+    <rect x="382" y="190" width="520" height="11" rx="6" fill="#132C36"/><rect x="382" y="190" width="423" height="11" rx="6" fill="#45F0C1"/>
+    <rect x="382" y="212" width="520" height="11" rx="6" fill="#132C36"/><rect x="382" y="212" width="175" height="11" rx="6" fill="#4CB8EC"/>
+    <text x="944" y="200" class="metric">ROC-AUC  0.8136</text><text x="1112" y="200" class="metric">PR-AUC  0.3381</text></g><g><rect x="50" y="254" width="1400" height="60" rx="16" fill="#0A1C25" stroke="#163640"/>
+    <text x="77" y="291" class="model">Gradient Boosting</text>
+    <rect x="382" y="270" width="520" height="11" rx="6" fill="#132C36"/><rect x="382" y="270" width="423" height="11" rx="6" fill="#45F0C1"/>
+    <rect x="382" y="292" width="520" height="11" rx="6" fill="#132C36"/><rect x="382" y="292" width="175" height="11" rx="6" fill="#4CB8EC"/>
+    <text x="944" y="280" class="metric">ROC-AUC  0.8152</text><text x="1112" y="280" class="metric">PR-AUC  0.3372</text></g>
+</svg>
